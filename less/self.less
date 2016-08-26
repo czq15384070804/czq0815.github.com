@@ -1,0 +1,156 @@
+@url:url(../img/icom.png);
+@keyframes rot{
+	0%{transform:rotateY(0deg);}
+	50%{transform:rotateY(180deg);}
+	100%{transform:rotateY(0deg);}
+}
+@keyframes l2r{
+	100%{transform:translateX(0px);}
+}
+/*登录条*/
+.login{
+	.center{
+		margin-left:190px;
+		div{
+			&.left{
+				left:101px;
+			}
+		}
+	}
+}
+/*登录条*/
+/*头部*/
+.header{
+	padding-bottom:70px;
+}
+/*头部*/
+/*主体*/
+.contian{
+	width:980px;
+	overflow:hidden;
+	.list{
+		width:980px;
+		transform:translateX(980px);
+		padding:40px 0;
+		border-bottom:1px solid #d5d5d5;
+		&:hover div span{
+			animation:1s rot linear infinite;
+		}
+		div{
+			width:180px;
+			height:180px;
+			border-radius:50%;
+			text-align:center;
+			line-height:180px;
+			background:#e5eaef;
+			margin-right:60px;
+			color:#b8c1cb;
+			border:2px solid #c8d8df;
+			span{
+				font-size:60px;
+				transform:rotate(0deg);
+				display:inline-block;
+			}
+			&.active0{
+				border:2px solid #f6e55e;
+				background:#f6e55e;
+				color:#fff;
+			}
+			&.active1{
+				border:2px solid #cee77c;
+				background:#cee77c;
+				color:#fff;
+			}
+			&.active2{
+				border:2px solid #a1d3f0;
+				background:#a1d3f0;
+				color:#fff;
+			}
+		}
+		dl{
+			padding-top:30px;
+			width:736px;
+			dt{
+				font:20px/1 "微软雅黑";
+				color:#de3168;
+				padding-bottom:14px;
+				text-decoration:underline;
+			}
+			dd{
+				font:14px/1 "微软雅黑";
+				color:#6f7997;
+				padding-bottom:12px;
+				span{
+					margin-right:20px;
+				}
+				&.now{
+					color:#de3168;
+				}
+			}
+		}
+	}
+}
+/*主体*/
+/*菜单栏*/
+.menu{
+	p{
+		text-align:center;
+		color:#de3168;
+		font:20px/1 "微软雅黑";
+		padding:30px 0 60px;
+	}
+	.p3{
+		font:16px/1 "微软雅黑";
+		color:#8f9dac;
+		text-align:center;
+		margin:50px 0;
+		padding:0;
+		a{
+			color:#de3168;
+			text-decoration:underline;
+		}
+	}
+	ul{
+		padding:30px 74px;
+		li{
+			float:left;
+			span{
+				display:inline-block;
+				width:70px;
+				height:70px;
+				font:30px/70px "微软雅黑";
+				border:3px solid #0e7ec6;
+				border-radius:50%;
+				text-align:center;
+				color:#8f9dac;
+				background:#f0f5f6;
+				&.col2{
+					border:3px solid #e5b90f;
+				}
+				&.col3{
+					border:3px solid #9fcb11;
+				}
+				&.col4{
+					border:3px solid #e78830;
+				}
+				&.col5{
+					border:3px solid #f14d82;
+				}
+			}
+			i{
+				display:inline-block;
+				width:107px;
+				height:10px;
+				background:@url no-repeat -137px -157px;
+				text-indent:-9999px;
+			}
+			div{
+				font:14px/1 "微软雅黑";
+				padding-left:24px;
+				padding-top:15px;
+				color:#8f9dac;
+			}
+		}
+	}
+}
+/*菜单栏*/
