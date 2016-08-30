@@ -19,10 +19,14 @@
   margin-left: 92px;
 }
 .content em {
+  width: 794px;
+  margin-left: 92px;
   font: 16px/100px "微软雅黑";
   display: block;
   text-align: center;
   color: #6f7997;
+  border-bottom: 1px solid #d5d5d5;
+  margin-bottom: 20px;
 }
 .content ul {
   width: 794px;

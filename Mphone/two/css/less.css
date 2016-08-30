@@ -1,0 +1,265 @@
+.wrap {
+  max-width: 640px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  background: #f5f5f5;
+  /*登录开始*/
+  /*登录结束*/
+  /*广告开始*/
+  /*广告结束*/
+  /*秒杀开始*/
+  /*麦当劳开始*/
+  /*麦当劳结束*/
+  /*超值购开始*/
+  /*超值购结束*/
+  /*热门活动开始*/
+  /*热门活动结束*/
+  /*主体管开始*/
+  /*主题馆结束*/
+  /*页脚开始*/
+  /*页脚结束*/
+}
+.wrap .loginbar {
+  position: relative;
+  height: 46px;
+}
+.wrap .loginbar i {
+  position: absolute;
+  left: 4px;
+  top: 14px;
+  width: 28px;
+  height: 18px;
+  background: url(../img/icom.png) no-repeat;
+}
+.wrap .loginbar .soso {
+  width: 100%;
+  padding: 7px 40px 9px;
+  height: 46px;
+  box-sizing: border-box;
+}
+.wrap .loginbar .soso a {
+  position: absolute;
+  top: 14px;
+  right: 45px;
+  width: 17px;
+  height: 17px;
+  background: url(../img/icom.png) no-repeat -35px 0;
+}
+.wrap .loginbar .soso form input {
+  height: 30px;
+  width: 100%;
+  background: #ebebeb;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.wrap .loginbar a {
+  position: absolute;
+  top: 9px;
+  right: 4px;
+}
+.wrap .loginbar a b {
+  display: block;
+  width: 21px;
+  height: 13px;
+  background: url(../img/icom.png) no-repeat -61px 0;
+  margin: 0 auto;
+  margin-bottom: 4px;
+}
+.wrap .loginbar a span {
+  font: 12px/1 "微软雅黑";
+  color: #de476b;
+}
+.wrap .banner {
+  margin-bottom: 11px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.wrap .banner div {
+  width: 100%;
+  padding: 4px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.wrap .banner div a img {
+  width: 100%;
+}
+.wrap .banner ul {
+  background: #fff;
+  padding: 14px 0;
+}
+.wrap .banner ul li {
+  height: 28px;
+  box-sizing: border-box;
+  border-right: 1px solid #dadada;
+  width: 25%;
+  float: left;
+}
+.wrap .banner ul li.bor-r {
+  border-right: none;
+}
+.wrap .banner ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: -4px;
+}
+.wrap .banner ul li a i {
+  background: url(../img/icom.png) no-repeat 0 -28px;
+  width: 24px;
+  height: 20px;
+  margin: 0 auto;
+  margin-bottom: 4px;
+  display: block;
+}
+.wrap .banner ul li a i.icom {
+  background-position: -35px -28px;
+  width: 19px;
+}
+.wrap .banner ul li a i.icom2 {
+  background-position: -69px -28px;
+  width: 22px;
+}
+.wrap .banner ul li a i.icom3 {
+  background-position: -107px -28px;
+  width: 18px;
+}
+.wrap .banner ul li a span {
+  font: 12px/1 "微软雅黑";
+  color: #7f7f7f;
+}
+.wrap .msha {
+  margin-bottom: 10px;
+}
+.wrap .msha dl {
+  background: #fff;
+  border-bottom: 1px solid #dadada;
+}
+.wrap .msha dl dt {
+  padding: 9px 0 9px 17px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dadada;
+  font: 14px "微软雅黑";
+  position: relative;
+}
+.wrap .msha dl dt i {
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  width: 3px;
+  height: 12px;
+  background: #d8505c;
+}
+.wrap .msha dl dd {
+  float: left;
+  width: 33%;
+  border-right: 1px solid #dadada;
+  padding-bottom: 9px;
+}
+.wrap .msha dl dd.bor-r {
+  border-right: none;
+}
+.wrap .msha dl dd a img {
+  width: 100%;
+}
+.wrap .msha dl dd p {
+  text-align: center;
+  font: 12px/1 "微软雅黑";
+  color: #d8505c;
+}
+.wrap .msha dl dd p.p1 {
+  line-height: 15px;
+  width: 59%;
+  background: #d8505c;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.wrap .mdl dl dt {
+  border-bottom: none;
+}
+.wrap .mdl dl dd {
+  width: 100%;
+  padding: 4px;
+  float: none;
+  box-sizing: border-box;
+  border-right: 0;
+}
+.wrap .mdl dl dd a img {
+  width: 100%;
+}
+.wrap .super dl dt {
+  border-bottom: none;
+}
+.wrap .super dl dd {
+  width: 50%;
+  box-sizing: border-box;
+}
+.wrap .super dl dd.bor-r {
+  border-right: none;
+}
+.wrap .super dl dd.bor-t {
+  border-top: 1px solid #dadada;
+}
+.wrap .super dl dd a img {
+  width: 100%;
+}
+.wrap .hot dl dt {
+  border-bottom: none;
+}
+.wrap .hot dl dd {
+  width: 50%;
+  border-right: none;
+}
+.wrap .hot dl dd a img.bor-t {
+  border-top: 1px solid #dadada;
+}
+.wrap .show dl {
+  padding-bottom: 10px;
+}
+.wrap .show dl dt {
+  border-bottom: none;
+}
+.wrap .show dl dd {
+  padding: 4px 4px 4px 8px;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  border: none;
+}
+.wrap .show dl dd.pad-r {
+  padding: 4px 8px 4px 4px;
+}
+.wrap .foot dl {
+  background: #fff;
+  padding-bottom: 29px;
+}
+.wrap .foot dl dt {
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 14px;
+}
+.wrap .foot dl dt a {
+  font: 12px/16px "微软雅黑";
+  padding: 0 3px;
+  border-right: 1px solid #cf9566;
+  color: #666;
+}
+.wrap .foot dl dt a.bor-l {
+  border: none;
+  border-left: 1px solid #6695cf;
+}
+.wrap .foot dl dd {
+  text-align: center;
+  height: 12px;
+  margin-bottom: 9px;
+  font: 12px/1 "微软雅黑";
+  color: #666;
+}
+.wrap .foot dl dd a {
+  color: #666;
+  padding: 0 18px;
+}
+.wrap .foot dl dd a.col {
+  color: #e6242b;
+}

@@ -5,16 +5,9 @@
 <link rel="stylesheet" href="css/common.css" />
 <link rel="stylesheet" href="css/less.css" />
 <script src="js/sea.js"></script>
+<script src="js/loadimage.js"></script>
 <script>
 seajs.use('index.js');
-window.onload=function(){
-	var oBox=document.getElementById('check_ie');
-	if(window.navigator.userAgent.indexOf('MSIE') >= 0){
-		oBox.style.display='block';
-		window.onmousewheel=document.onmousewheel=function() {return false;};
-		document.body.style.overflowY='hidden';
-	}
-}
 </script>
 <title>个人站首页</title>
 </head>
@@ -53,7 +46,7 @@ window.onload=function(){
             <li class="weixin">
             	<i class="icom">微信</i>
             	<span>微信</span>
-                <div><img src="img/weixin.png" /></div>
+                <div><img _src="img/weixin.png" /></div>
             </li>
             <li>
             	<i class="icom2">搜藏</i>
@@ -70,12 +63,12 @@ window.onload=function(){
         <!--轮播图-->
         <div class="banner">
             <ul class="clearfix">
-                <li><img src="img/banner2.png" /></li>
-                <li><img src="img/banner3.png" /></li>
-                <li><img src="img/banner1.png" /></li>
-                <li><img src="img/banner4.png" /></li>
-                <li><img src="img/banner2.png" /></li>
-                <li><img src="img/banner3.png" /></li>
+                <li><img _src="img/banner2.png" /></li>
+                <li><img _src="img/banner3.png" /></li>
+                <li><img _src="img/banner1.png" /></li>
+                <li><img _src="img/banner4.png" /></li>
+                <li><img _src="img/banner2.png" /></li>
+                <li><img _src="img/banner3.png" /></li>
             </ul>
             <ol class="clearfix">
             	<li class="active">1</li>
@@ -115,43 +108,45 @@ window.onload=function(){
                 <!--3d环-->
                 <div class="fun show-div" id="show_fun">
                 	<ul>
-                    	<li><img src="img/fun1.png" /></li>
-                    	<li><img src="img/fun2.png" /></li>
-                    	<li><img src="img/fun3.png" /></li>
-                    	<li><img src="img/fun4.png" /></li>
-                    	<li><img src="img/fun5.png" /></li>
-                    	<li><img src="img/fun6.png" /></li>
-                    	<li><img src="img/fun7.png" /></li>
-                    	<li><img src="img/fun8.png" /></li>
-                    	<li><img src="img/fun9.png" /></li>
+                    	<li><img _src="img/fun1.png" /></li>
+                    	<li><img _src="img/fun2.png" /></li>
+                    	<li><img _src="img/fun3.png" /></li>
+                    	<li><img _src="img/fun4.png" /></li>
+                    	<li><img _src="img/fun5.png" /></li>
+                    	<li><img _src="img/fun6.png" /></li>
+                    	<li><img _src="img/fun7.png" /></li>
+                    	<li><img _src="img/fun8.png" /></li>
+                    	<li><img _src="img/fun9.png" /></li>
                     </ul>
                     <span>重置</span>
+                    <p>图片可拖拽</p>
                 </div>
                 <!--拖拽轮播图-->
                 <div class="food" id="show_food">
                     <ul class="clearfix">
-                    	<li><img src="img/food1.png" /></li>
-                    	<li><img src="img/food2.png" /></li>
-                    	<li><img src="img/food3.png" /></li>
-                    	<li><img src="img/food4.png" /></li>
-                    	<li><img src="img/food5.png" /></li>
-                    	<li><img src="img/food6.png" /></li>
-                    	<li><img src="img/food7.png" /></li>
-                    	<li><img src="img/food8.png" /></li>
-                    	<li><img src="img/food9.png" /></li>
+                    	<li><img _src="img/food1.png" /></li>
+                    	<li><img _src="img/food2.png" /></li>
+                    	<li><img _src="img/food3.png" /></li>
+                    	<li><img _src="img/food4.png" /></li>
+                    	<li><img _src="img/food5.png" /></li>
+                    	<li><img _src="img/food6.png" /></li>
+                    	<li><img _src="img/food7.png" /></li>
+                    	<li><img _src="img/food8.png" /></li>
+                    	<li><img _src="img/food9.png" /></li>
                     </ul>
                     <a href="javascript:;" class="prev iconfont">&#xf0292</a>
                     <a href="javascript:;" class="next iconfont">&#xf02af</a>
+                    <p>图片可拖拽</p>
                 </div>
                 <!--3d轮播图-->
                 <div class="shopping" id="show_shopping">
                 	<ul>
-                    	<li class="prev2"><img src="img/shopping1.png" /></li>
-                    	<li class="prev"><img src="img/shopping2.png" /></li>
-                        <li class="now"><img src="img/shopping3.png" /></li>
-                    	<li class="next"><img src="img/shopping4.png" /></li>
-                    	<li class="next2"><img src="img/shopping5.png" /></li>
-                        <li><img src="img/shopping6.png" /></li>
+                    	<li class="prev2"><img _src="img/shopping1.png" /></li>
+                    	<li class="prev"><img _src="img/shopping2.png" /></li>
+                        <li class="now"><img _src="img/shopping3.png" /></li>
+                    	<li class="next"><img _src="img/shopping4.png" /></li>
+                    	<li class="next2"><img _src="img/shopping5.png" /></li>
+                        <li><img _src="img/shopping6.png" /></li>
                     </ul>
                     <a href="javascript:;" class="prev iconfont">&#xf0292</a>
                     <a href="javascript:;" class="next iconfont">&#xf02af</a>
@@ -159,12 +154,12 @@ window.onload=function(){
                 <!--手风琴-->
                 <div class="sports" id="show_sports">
                 	<ul>
-                    	<li><img src="img/sport1.png"/></li>
-                    	<li><img src="img/sport2.png"/></li>
-                    	<li><img src="img/sport3.png"/></li>
-                    	<li><img src="img/sport4.png"/></li>
-                    	<li><img src="img/sport5.png"/></li>
-                    	<li><img src="img/sport6.png"/></li>
+                    	<li><img _src="img/sport1.png"/></li>
+                    	<li><img _src="img/sport2.png"/></li>
+                    	<li><img _src="img/sport3.png"/></li>
+                    	<li><img _src="img/sport4.png"/></li>
+                    	<li><img _src="img/sport5.png"/></li>
+                    	<li><img _src="img/sport6.png"/></li>
                     </ul>
                 </div>
             </div>
@@ -199,37 +194,37 @@ window.onload=function(){
                 	<ul class="drag" id="life_drag">
                     	<li>
                         	<ol class="clearfix">
-                            	<li><img src="img/rc1.png" /></li>
-                            	<li><img src="img/rc2.png" /></li>
-                            	<li><img src="img/rc3.png" /></li>
+                            	<li><img _src="img/rc1.png" /></li>
+                            	<li><img _src="img/rc2.png" /></li>
+                            	<li><img _src="img/rc3.png" /></li>
                             </ol>
                         </li>
                     	<li>
                         	<ol class="clearfix">
-                            	<li><img src="img/rc4.png" /></li>
-                            	<li><img src="img/rc5.png" /></li>
-                            	<li><img src="img/rc6.png" /></li>
+                            	<li><img _src="img/rc4.png" /></li>
+                            	<li><img _src="img/rc5.png" /></li>
+                            	<li><img _src="img/rc6.png" /></li>
                             </ol>
                         </li>
                     	<li>
                         	<ol class="clearfix">
-                            	<li><img src="img/rc7.png" /></li>
-                            	<li><img src="img/rc8.png" /></li>
-                            	<li><img src="img/rc9.png" /></li>
+                            	<li><img _src="img/rc7.png" /></li>
+                            	<li><img _src="img/rc8.png" /></li>
+                            	<li><img _src="img/rc9.png" /></li>
                             </ol>
                         </li>
                     </ul>
                     <div class="fenge"><span>天天都是好心情！</span></div>
                     <ul class="change" id="life_change">
-                        <li><img src="img/rcx1.png" /></li>
-                        <li><img src="img/rcx2.png" /></li>
-                        <li><img src="img/rcx3.png" /></li>
-                        <li><img src="img/rcx4.png" /></li>
-                        <li><img src="img/rcx5.png" /></li>
-                        <li><img src="img/rcx6.png" /></li>
-                        <li><img src="img/rcx7.png" /></li>
-                        <li><img src="img/rcx8.png" /></li>
-                        <li><img src="img/rcx9.png" /></li>
+                        <li><img _src="img/rcx1.png" /></li>
+                        <li><img _src="img/rcx2.png" /></li>
+                        <li><img _src="img/rcx3.png" /></li>
+                        <li><img _src="img/rcx4.png" /></li>
+                        <li><img _src="img/rcx5.png" /></li>
+                        <li><img _src="img/rcx6.png" /></li>
+                        <li><img _src="img/rcx7.png" /></li>
+                        <li><img _src="img/rcx8.png" /></li>
+                        <li><img _src="img/rcx9.png" /></li>
                     </ul>
                     <div class="button iconfont">&#xf02c7</div>
                 </div>

@@ -1,0 +1,436 @@
+.content {
+  /*奔跑兄弟开始*/
+  /*奔跑兄弟结束*/
+  /*脱口秀开始*/
+  /*脱口秀结束*/
+  /*娱乐开始*/
+  /*娱乐结束*/
+  /*喜欢开始*/
+  /*喜欢结束*/
+  /*广告推广开始*/
+  /*广告推广结束*/
+  /*电影开始*/
+  /*电影结束*/
+  /*动漫开始*/
+  /*动漫结束*/
+  /*体育开始*/
+  /*体育结束*/
+  /*原创开始*/
+  /*原创结束*/
+  /*搞笑开始*/
+  /*搞笑结束*/
+  /*广告2开始*/
+  /*广告2结束*/
+  /*合作伙伴开始*/
+  /*合作伙伴结束*/
+}
+.content .brother dl dt {
+  font: 20px/1 "微软雅黑";
+  color: #699f00;
+  padding-bottom: 11px;
+  padding-top: 24px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 15px;
+}
+.content .brother dl dt i {
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 5px 5px 5px 0;
+  background: #ff6d34;
+  color: #fff;
+  margin-left: 5px;
+}
+.content .brother dl dt a {
+  color: #699f00;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 12px;
+}
+.content .brother dd {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+}
+.content .brother dd.mar-r {
+  margin-right: 0;
+}
+.content .brother dd a {
+  display: block;
+  background: url(../img/banner-14.png) no-repeat;
+  width: 180px;
+  height: 101px;
+}
+.content .brother dd p {
+  font: 14px/20px "微软雅黑";
+  background: #f2f2f2;
+  padding: 7px 4px 10px;
+}
+.content .brother dd p span {
+  color: #699f00;
+  padding: 3px;
+  background: #fff;
+  border: 1px solid #cfcfcf;
+}
+.content .mouse dl dd.mar-r {
+  margin-right: 0;
+}
+.content .mouse dl dd a {
+  background: url(../img/banner-15.png);
+}
+.content .mouse dl dd p em {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 9px;
+  line-height: 1em;
+}
+.content .mouse dl dd p b {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  line-height: 1em;
+}
+.content .fun dl dt {
+  padding-bottom: 10px;
+  padding-top: 48px;
+  border-bottom: 2px solid #8ac024;
+  position: relative;
+  margin-bottom: 25px;
+}
+.content .fun dl dt i {
+  width: 15px;
+  height: 25px;
+  background: url(../img/icon-7.png) no-repeat;
+  margin-top: 1px;
+}
+.content .fun dl dt span {
+  color: #699f00;
+  font: 28px/1 "微软雅黑";
+}
+.content .fun dl dt a {
+  padding-left: 30px;
+  background: url(../img/icon-9.png) no-repeat 9px 50%;
+  font: 14px/1 "微软雅黑";
+  margin-top: 14px;
+  float: left;
+}
+.content .fun dl dt a.bg-n {
+  background: none;
+  margin-left: 5px;
+}
+.content .fun dl dt a.more {
+  background: none;
+  color: #699f00;
+  padding-left: 8px;
+}
+.content .fun dl dt a.jub {
+  width: 179px;
+  height: 43px;
+  background: url(../img/icon-10.png) no-repeat;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+}
+.content .fun dl dd {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+}
+.content .fun dl dd.mar-r {
+  margin-right: 0;
+}
+.content .fun dl dd.mar-t {
+  margin-top: 15px;
+}
+.content .fun dl dd.teshu {
+  margin-right: 22px;
+  width: 380px;
+}
+.content .fun dl dd.teshu div {
+  padding: 10px 5px;
+}
+.content .fun dl dd.teshu div p {
+  line-height: 1em;
+}
+.content .fun dl dd.teshu div p.p1 {
+  color: #9f9f9f;
+  margin-top: 8px;
+}
+.content .fun dl dd div {
+  padding: 6px;
+  font: 14px "微软雅黑";
+  background: #f2f2f2;
+}
+.content .fun dl dd div p {
+  line-height: 20px;
+}
+.content .love dl dd.mar-b {
+  margin-bottom: 15px;
+}
+.content .love dl dd.mar-r {
+  margin-right: 0;
+}
+.content .love dl dd div p {
+  line-height: 1em;
+}
+.content .love dl dd div p.p1 {
+  color: #9f9f9f;
+  margin-top: 8px;
+}
+.content .tuig {
+  margin-top: 40px;
+  position: relative;
+}
+.content .tuig h3 {
+  background: #8ac024;
+  color: #fff;
+  width: 84px;
+  font: 12px/22px "微软雅黑";
+  text-align: center;
+  border-radius: 3px 3px 0 0;
+}
+.content .tuig ul {
+  padding: 9px 26px;
+  border: 1px solid #8ac024;
+  border-top-width: 2px;
+}
+.content .tuig ul li {
+  float: left;
+  margin-right: 19px;
+}
+.content .tuig ul li.mar-r {
+  margin-right: 0;
+}
+.content .tuig i {
+  width: 15px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+}
+.content .tuig i.icom6 {
+  background: url(../img/icon-11.png) no-repeat;
+  left: 5px;
+}
+.content .tuig i.icom5 {
+  background: url(../img/icon12.png) no-repeat;
+  right: 5px;
+}
+.content .tuig i a {
+  display: inline-block;
+  width: 15px;
+  height: 28px;
+  text-indent: -999em;
+}
+.content .movie .movie-l {
+  width: 780px;
+  float: left;
+}
+.content .movie .movie-l dd.mar-b {
+  margin-bottom: 15px;
+}
+.content .movie .movie-l dd div {
+  padding: 12px 5px;
+}
+.content .movie .movie-l dd div p {
+  font: 14px/1 "微软雅黑";
+}
+.content .movie .movie-r {
+  float: right;
+  width: 180px;
+}
+.content .movie .movie-r dd {
+  font: 14px "微软雅黑";
+  margin-bottom: 15px;
+}
+.content .movie .movie-r dd i {
+  background: #73ae00;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 2px;
+  color: #fff;
+}
+.content .movie .movie-r dd a {
+  line-height: 20px;
+  margin-left: 5px;
+}
+.content .movie .movie-r dd span {
+  background: url(../img/icon13.png) no-repeat 50% 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+}
+.content .movie .movie-r dd.tebie {
+  padding-top: 9px;
+  margin: 0;
+}
+.content .movie .movie-r dd.tebie a {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.content .movie .movie-r dd.tebie div {
+  padding: 12px 5px;
+}
+.content .movie .movie-r dd.tebie div p {
+  font: 14px/1 "微软雅黑";
+}
+.content .dman dl.dman-l {
+  width: 580px;
+  margin-right: 20px;
+}
+.content .dman dl dd {
+  margin-right: 0;
+}
+.content .dman dl dd.teshu {
+  margin-right: 20px;
+}
+.content .dman dl dd .mrn-b {
+  margin-bottom: 16px;
+}
+.content .dman dl dd div p {
+  font-family: "微软雅黑";
+}
+.content .tiyu dl.tiyu-l {
+  margin-right: 20px;
+}
+.content .tiyu dl dd.mar-r {
+  margin-right: 0;
+}
+.content .tiyu dl dd div.mar-b {
+  margin-bottom: 18px;
+}
+.content .yuanch .yuanch-l {
+  float: left;
+  width: 780px;
+}
+.content .yuanch .yuanch-l dd {
+  width: auto;
+  margin-right: 20px;
+}
+.content .yuanch .yuanch-l dd div {
+  padding: 10px 5px;
+}
+.content .yuanch .yuanch-l dd div .p1 {
+  font: 12px/1 "微软雅黑";
+  color: #999;
+}
+.content .yuanch .yuanch-l dd div.mar-b {
+  margin-bottom: 16px;
+}
+.content .yuanch .yuanch-l dd.mar-r {
+  margin-right: 0;
+}
+.content .yuanch .yuanch-r {
+  width: 180px;
+}
+.content .yuanch .yuanch-r ol {
+  background: #f2f2f2;
+  padding: 10px;
+}
+.content .yuanch .yuanch-r ol li {
+  margin-bottom: 12px;
+}
+.content .yuanch .yuanch-r ol li.mar-b {
+  margin-bottom: 0;
+}
+.content .yuanch .yuanch-r ol li div {
+  font: 14px/1 "微软雅黑";
+  padding: 0;
+  margin: 0;
+  margin-left: 8px;
+}
+.content .yuanch .yuanch-r ol li div h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.content .yuanch .yuanch-r ol li div p {
+  font: 12px/1 "微软雅黑";
+  color: #999;
+  margin-bottom: 7px;
+}
+.content .yuanch .yuanch-r ol li div a {
+  background: #6ba400;
+  border-radius: 5px;
+  display: block;
+  height: 22px;
+  width: 68px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+}
+.content .gaox dl dd div p {
+  font: 14px/1 "微软雅黑";
+}
+.content .gaox dl dd div p.p1 {
+  font: 12px/1 "微软雅黑";
+  color: #999;
+  margin-top: 9px;
+}
+.content .gg2 {
+  margin-top: 45px;
+}
+.content .gg2 ul li {
+  margin-right: 20px;
+  float: left;
+}
+.content .gg2 ul li.mar-r {
+  margin-right: 0;
+  padding-left: 2px;
+}
+.content .union {
+  margin-bottom: 50px;
+  margin-top: 45px;
+}
+.content .union dl {
+  width: 470px;
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  float: left;
+  padding-top: 22px;
+  padding-left: 19px;
+  padding-bottom: 34px;
+}
+.content .union dl.union-r {
+  margin-left: -1px;
+  padding-left: 20px;
+}
+.content .union dl.union-r dd {
+  width: 190px;
+}
+.content .union dl dt {
+  font: 22px/1 "微软雅黑";
+  margin-bottom: 20px;
+}
+.content .union dl dt a {
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 15px;
+}
+.content .union dl dd {
+  width: 80px;
+  float: left;
+}
+.content .union dl dd p {
+  font: 12px/1 "微软雅黑";
+  margin-bottom: 17px;
+}
+/*内容结束*/
+/*页脚开始*/
+.footer .friendlink {
+  font: 12px/1 "微软雅黑";
+  text-align: center;
+  padding-top: 19px;
+  border-top: 1px solid #ccc;
+}
+.footer .friendlink a {
+  padding: 0 8px;
+  margin-bottom: 15px;
+}
+.footer .friendlink img {
+  padding: 16px 10px 27px;
+}
+/*页脚结束*/

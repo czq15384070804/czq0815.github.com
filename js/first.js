@@ -151,6 +151,7 @@ define(function(require,exports,module){
 		var aNav=oBox.parentNode.parentNode.children[0].children[0].children;
 		var oUl=oBox.children[0];
 		var aLi=oUl.children;
+		var oP=oBox.querySelector('p');
 		var x=0,y=0,speedX=0,speedY=0,lastX=0,lastY=0,timer=null,bOk=false;
 		window.addEventListener('scroll',function(){
 			var sTop=document.documentElement.scrollTop||document.body.scrollTop;
@@ -195,6 +196,7 @@ define(function(require,exports,module){
 					obj.removeEventListener('transitionend',fnEnd,false);
 					if(this.index==aLi.length-1){
 						bOk=false;
+						oP.classList.add('animate');
 					}
 				}
 			}
@@ -203,13 +205,13 @@ define(function(require,exports,module){
 			if(bOk)return;
 			bOk=true;
 			oSpan.style.display='block';
-			var disX=ev.pageX-x;
-			var disY=ev.pageY-y;
+			var disX=ev.pageX-y;
+			var disY=ev.pageY-x;
 			document.addEventListener('mousemove',fnMove,false);
 			function fnMove(ev){
-				x=ev.pageX-disX;
-				y=ev.pageY-disY;	
-				oUl.style.transform='perspective(800px) rotateY('+x/5+'deg) rotateX('+-y/5+'deg)';
+				y=ev.pageX-disX;
+				x=ev.pageY-disY;	
+				oUl.style.transform='perspective(800px) rotateX('+-x/5+'deg) rotateY('+y/5+'deg)';
 				speedX=ev.pageX-lastX;
 				speedY=ev.pageY-lastY;
 				lastX=ev.pageX;
@@ -222,9 +224,9 @@ define(function(require,exports,module){
 				timer=setInterval(function(){
 					speedX*=0.95;	
 					speedY*=0.95;	
-					x+=speedX;
-					y+=speedY;
-					oUl.style.transform='perspective(800px) rotateY('+x/5+'deg) rotateX('+-y/5+'deg)';
+					x+=speedY;
+					y+=speedX;
+					oUl.style.transform='perspective(800px) rotateX('+-x/5+'deg) rotateY('+y/5+'deg)';
 					if(Math.abs(speedX)<1)speedX=0;
 					if(Math.abs(speedY)<1)speedY=0;
 					if(speedX==0&&speedY==0){
@@ -247,6 +249,9 @@ define(function(require,exports,module){
 				startMove();	
 			},500)
 		},false)
+		oP.addEventListener('animationend',function(){
+			oP.classList.remove('animate');
+		},false)
 	}
 	//拖拽轮播图
 	exports.fnFood=function(id){
@@ -256,6 +261,7 @@ define(function(require,exports,module){
 		var aImg=oBox.getElementsByTagName('img');
 		var aNav=oBox.parentNode.parentNode.children[0].children[0].children;
 		var aA=oBox.getElementsByTagName('a');
+		var oP=oBox.querySelector('p');
 		var x=0,y=0,n=4;
 		oUl.onmousedown=function(ev){
 			var disX=ev.pageX-x;
@@ -300,6 +306,7 @@ define(function(require,exports,module){
 				if(this.index==1){
 					setCenter(4)
 					setSize();
+					oP.classList.add('animate2');
 				}
 			},false)
 		}
@@ -314,6 +321,9 @@ define(function(require,exports,module){
 			if(n>8)n=8;
 			oUl.style.left=oBox.offsetWidth/2-(n+0.5)*aLi[0].offsetWidth+'px';
 			setSize();
+		},false)
+		oP.addEventListener('animationend',function(){
+			oP.classList.remove('animate2');
 		},false)
 	}
 	

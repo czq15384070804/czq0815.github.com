@@ -77,6 +77,28 @@
     transform: scale(1, 1);
   }
 }
+@keyframes scale2 {
+  0% {
+    transform: translateY(-330px) translateX(390px) scale(1, 1);
+  }
+  50% {
+    transform: translateY(-330px) translateX(390px) scale(1.2, 1.2);
+  }
+  100% {
+    transform: translateY(-330px) translateX(390px) scale(1, 1);
+  }
+}
+@keyframes scale3 {
+  0% {
+    transform: translateY(20px) translateX(390px) scale(1, 1);
+  }
+  50% {
+    transform: translateY(20px) translateX(390px) scale(1.2, 1.2);
+  }
+  100% {
+    transform: translateY(20px) translateX(390px) scale(1, 1);
+  }
+}
 .check-ie {
   width: 100%;
   height: 100%;
@@ -120,8 +142,7 @@
   width: 100%;
   height: 600px;
   position: absolute;
-  background: url(../img/banner8.png) no-repeat -250px 0;
-  background-size: cover;
+  background: linear-gradient(#eeeeee 0, #ffffff 250px);
   top: 0;
   left: 0;
   z-index: -1;
@@ -468,6 +489,13 @@
   width: 100%;
   border-radius: 10px;
 }
+.show .food p {
+  transform: translateY(20px) translateX(390px);
+}
+.show .food p.animate2 {
+  display: block;
+  animation: 1s scale3 linear alternate 3;
+}
 /*美食*/
 /*3d轮播图*/
 .show .shopping ul {
@@ -561,6 +589,23 @@
 }
 .show div.show-div {
   display: block;
+}
+.show div p {
+  font: 18px/30px "微软雅黑";
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+  background: #eee;
+  position: relative;
+  z-index: 10;
+  transform: translateY(-330px) translateX(390px);
+  display: none;
+}
+.show div p.animate {
+  display: block;
+  animation: 1s scale2 linear alternate 3;
 }
 .show a {
   position: absolute;
